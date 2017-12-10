@@ -12,11 +12,11 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			primaryStage.initStyle(StageStyle.TRANSPARENT);	//ウィンドウ・タイトルバーや枠を外す
+			primaryStage.initStyle(StageStyle.TRANSPARENT);
 			Pane root = (Pane)FXMLLoader.load(getClass().getResource("From.fxml"));
 			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-			scene.setFill(null);	//透過
+			scene.setFill(null);
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
