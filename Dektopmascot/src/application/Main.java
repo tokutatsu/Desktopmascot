@@ -17,7 +17,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			primaryStage.initStyle(StageStyle.TRANSPARENT);	//ウィンドウ・タイトルバーや枠を外す
+			primaryStage.initStyle(StageStyle.TRANSPARENT);	//ウィンドウ・タイトルバー・枠を外す
 			Pane root = (Pane)FXMLLoader.load(getClass().getResource("From.fxml"));
 			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());

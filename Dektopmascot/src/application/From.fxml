@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="346.0" fitWidth="384.0" layoutX="127.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="346.0" fitWidth="384.0" layoutX="111.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../../Pictures/mascot/メディアツイート_%20デレステクール透過画像bot(@cg_cool_touka)さん%20_%20Twitter_files/DORJQbjVAAcXZi7.png" />
          </image>
